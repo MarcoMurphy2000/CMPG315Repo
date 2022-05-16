@@ -8,7 +8,10 @@ function App() {
       {/*<h1>Connect</h1>*/}
 
       <div className="app_body">
+        {/*SideBar*/}
         <Sidebar />
+        {/*Chat*/}
+        <Chat/>
       </div>
     </div>
   );
