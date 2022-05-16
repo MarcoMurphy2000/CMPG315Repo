@@ -1,11 +1,22 @@
 import React from 'react'
+import { Avatar } from "@material-ui/core";
+import DonutLargeIcon from "@material-ui/icons/DonutLarge";
+import ChatIcon from "@material-ui/icons/Chat";
+import MoreVertInfo from "@material-ui/icons/MoreVert";
 import "./Sidebar.css"
+
 
 function Sidebar() {
   return (
     <div className="sidebar">
         <div className="sidebar_header">
-
+          <Avatar/>
+          <div className ="sidebar_headerRight">
+            <DonutLargeIcon/>
+            <ChatIcon/>
+            <MoreVertInfo/>
+          </div>
+ 
         </div>
         
         <div className="sidebar_search">
@@ -16,7 +27,7 @@ function Sidebar() {
             
         </div>
     </div>
-  )
+  );
 }
 
 export default Sidebar
