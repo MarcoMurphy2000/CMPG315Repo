@@ -11,7 +11,7 @@ function App() {
         {/*SideBar*/}
         <Sidebar />
         {/*Chat*/}
-        <Chat/>
+        
       </div>
     </div>
   );
