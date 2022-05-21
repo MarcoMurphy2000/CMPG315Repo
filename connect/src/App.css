@@ -1,8 +1,8 @@
 .app{
   display: grid;  
-  place-items: center; {/* To center the whole grid in the center*/}
+  place-items: center; 
   background-color: #ADD8E6;
-  height: 100vh;
+  height : 100vh;
 }
 
 .app_body{

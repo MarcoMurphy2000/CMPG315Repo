@@ -8,18 +8,29 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 1px solid lightgray;
+}
+.chat__headerInfo >  {
+    flex:1;
+    padding-left: 20px;
+    
 }
 
 .chat__headerInfo > h3{
-    flex:1;
-    padding-left: 20px;
+    margin-bottom: 3px; 
+    font-weight: 20 px;
 }
 
 .chat__headerInfo > p {
     color: gray;
 }
 
+.chat__headerRight {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+  
+}
 .chat__message{
     position: relative;
     font-size: 16px;
@@ -29,7 +40,7 @@
     background-color: white;
     margin-bottom: 30px;
 }
-.chat__reciever{
+.chat__receiver{
     margin-left: auto;
     background-color: green;
 }
@@ -43,11 +54,6 @@
     top: -15px;
     font-weight: 800;
     font-size: xx-small;
-}
-.chat__headerRight {
-    display: flex;
-    justify-content: space-between;
-    min-width: 100px;
 }
 
 .chat__body {
@@ -76,6 +82,7 @@
 }
 
 .chat__footer > form > button{
+    flex: 1;
     display: none;
 }
 
