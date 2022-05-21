@@ -21,6 +21,10 @@
     font-weight: 20 px;
 }
 
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
 .chat__headerInfo > p {
     color: gray;
 }
