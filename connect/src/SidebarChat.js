@@ -8,6 +8,10 @@ function SidebarChat({addNewChat }) {
 
   const createChat = () => {
       const roomName = prompt("Please enter name for chat");
+
+      if (roomName){
+        //DO fokkol
+      }
   };
   useEffect(() =>{
     setSeed(Math.floor(Math.random()*5000)); 
@@ -19,6 +23,7 @@ function SidebarChat({addNewChat }) {
         <div className="sidebarChat_info">
             <h2>Room name</h2>
             <p>Last message...</p>
+            
         </div>
     </div>
   ): (
