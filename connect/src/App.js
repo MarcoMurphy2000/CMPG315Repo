@@ -3,6 +3,7 @@ import './App.css';
 import Sidebar from "./Sidebar";
 import Chat from "./Chat";
 
+//comment 
 function App() {
   return (
     <div className="app">
