@@ -7,10 +7,10 @@ function SidebarChat({id, name, addNewChat }) {
   
 
   const createChat = () => {
-      const roomName = prompt("Please enter name for chat");
+      const roomName = prompt("Please enter name for chat room");
 
       if (roomName){
-        //DO fokkol
+        
       }
   };
   useEffect(() =>{
